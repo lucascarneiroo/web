@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Sirubico-Black-Metal-PC.256.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <input type="checkbox" class="checkbox" id="chk">
+    <label class="label" for="chk">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <div class="ball"></div>
+    </label>
+        <a href="index.html">
+        <div class="box-img-header">
+            <img class="img-logo" src="casa.png" alt="casa">
+        </div>
+        </a>
+        <nav id="menu" class="menu hide">
+            <a href="galeria.html" class="nav-links">Galeria</a>
+            <br>
+            <a href="login.html" class="nav-links">Login</a>
+            <br>
+            <a href="cadastro.html" class="nav-links">Cadastro</a>
+        </nav>
+        <div class="icon-menu">
+            <img class="img-lista" src="lista.png" alt="lista">
+        </div>
+        </div>
+    </header>
+    <div id="darkmode" class="main-login">
+        <div class="left-login">       
+            <img src="cadastro.svg" class="left-login-image" alt="loginpc">
+        </div>
+        <div class="rigth-login">
+            <span id="texto">
+            <div class="card-login">
+                <h1>CADASTRE-SE</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <div class="textfield">
+                    <label for="usuario">Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+               
+                <button class="btn-login">CADASTRA-SE</button>
+                <a class="cadastro" href="login.html">Login</a>
+            </span>
+                <div class="button-font">
+                    <button id="botao-aumentar">+</button>
+                    <button id="botao-diminuir">-</button>
+                </div>
+                <span id="tamanho_fonte"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>

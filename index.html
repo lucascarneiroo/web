@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposição de Grupo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Sirubico-Black-Metal-PC.256.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+        </label>
+    <a href="index.html">
+    <div class="box-img-header">
+        <img class="img-logo" src="casa.png" alt="casa">
+    </div>
+    </a>
+    <nav id="menu" class="menu hide">
+        <a href="galeria.html" class="nav-links">Galeria</a>
+        <br> 
+        <a href="login.html" class="nav-links">Login</a>
+        <br> 
+        <a href="cadastro.html" class="nav-links">Cadastro</a> 
+    </nav> 
+    <div class="icon-menu">
+        <img class="img-lista" src="lista.png" alt="lista">
+    </div>
+</header>
+
+    <main>
+        <section id="gabriel" class="profile">
+            <img src="IMGANES/GABRIEL.jpg" alt="Foto de Gabriel">
+            <article>
+                <h2>Gabriel</h2>
+                <p>Gabriel é um desenvolvedor de software com vasta experiência em desenvolvimento web...</p>
+                <button onclick="showMore('gabriel')">Mostrar mais</button>
+                <div id="gabriel-more" class="more-info">
+                    <h3>Competências</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                    <h3>Experiências Profissionais</h3>
+                    <p>Trabalhou em diversas startups...</p>
+                    <h3>Escolaridade</h3>
+                    <p>Formado em Ciência da Computação...</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="lucas" class="profile">
+            <div class="foto2">
+            <img class="profile2" src="IMGANES/Lucas.jpg" alt="Foto de Lucas">
+            </div>
+            <article>
+                <h2>Lucas</h2>
+                <p>Lucas é um engenheiro de software especializado em inteligência artificial...</p>
+                <button onclick="showMore('lucas')">Mostrar mais</button>
+                <div id="lucas-more" class="more-info">
+                    <h3>Competências</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                    <h3>Experiências Profissionais</h3>
+                    <p>Trabalhou em projetos de IA em grandes empresas...</p>
+                    <h3>Escolaridade</h3>
+                    <p>Mestre em Engenharia de Software...</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="fabricio" class="profile">
+            <img src="IMGANES/Fabricio.jfif" alt="Foto de Fabricio">
+            <article>
+                <h2>Fabricio</h2>
+                <p>Fabricio é um designer gráfico com um portfólio impressionante de projetos criativos...</p>
+                <button onclick="showMore('fabricio')">Mostrar mais</button>
+                <div id="fabricio-more" class="more-info">
+                    <h3>Competências</h3>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>UX/UI Design</li>
+                    </ul>
+                    <h3>Experiências Profissionais</h3>
+                    <p>Trabalhou em agências de publicidade...</p>
+                    <h3>Escolaridade</h3>
+                    <p>Graduado em Design Gráfico...</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="fernando" class="profile">
+            <img src="IMGANES/Fernando.png" alt="Foto de Fernando">
+            <article>
+                <h2>Fernando</h2>
+                <p>Fernando é um analista de dados com expertise em big data e visualização de dados...</p>
+                <button onclick="showMore('fernando')">Mostrar mais</button>
+                <div id="fernando-more" class="more-info">
+                    <h3>Competências</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>Python</li>
+                        <li>Tableau</li>
+                    </ul>
+                    <h3>Experiências Profissionais</h3>
+                    <p>Trabalhou com análise de grandes volumes de dados...</p>
+                    <h3>Escolaridade</h3>
+                    <p>Formado em Estatística...</p>
+                </div>
+            </article>
+        </section>
+    </main>
+   
+    <footer>
+        <p>&copy; 2024 Grupo de Exposição</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
